@@ -1,0 +1,325 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body{
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+  
+
+}
+nav{
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+
+
+}
+
+nav img{
+    width: 150px;
+}
+nav img[alt="stethoscope"]{
+    width: 40%;
+    margin: 10%;
+    margin-top: 60%;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+
+}
+
+nav ul li{
+    margin-right: 50px;
+    font-weight: 500;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    
+}
+
+main section{
+    width: 50%;
+}
+
+.leftSection{
+    margin-left: 5%;
+    position: relative;
+}
+
+.topAngle{
+    width: 25px;
+}
+
+.leftSection h1{
+    font-size: 70px;
+}
+
+.leftSection p{
+    color: #7c7c7c;
+    font-size:18px;
+    margin:20px 0;
+}
+
+.bottomAngle{
+    width: 25px;
+    position: absolute;
+    right: 25px;
+}
+
+.stethoscope{
+    position: absolute;
+    width: 90%;
+    top: -60;
+    right:-25;
+    z-index: -1;
+}
+
+.mouse{
+    padding:absolute;
+    width:30px;
+    bottom: 0;
+    right: 30px;
+}
+
+.leftSection button{
+    color:white;
+    border:none;
+    padding: 15px 40px;
+    border-radius:40px;
+    background-color:#174130;
+}
+
+.greenBox,
+.yellowBox{
+    position: absolute;
+    right:0;
+}
+
+.greenBox{
+    width:35%;
+    bottom:30px;
+}
+
+.yellowBox{
+    width:30%;
+    bottom:50px;
+}
+
+.doctor{
+    position: absolute;
+    right:0;
+    bottom: 0;
+    height:90%;
+}
+
+.make{
+    position: absolute;
+    margin-top:13%;
+    align-items:flex-start ;
+    left: 92px;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight:800;
+    background-color: #1abe7d;
+    color: #ffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;     
+}
+
+.make:hover{
+    background-color: #483a3a;
+    color: #ffffff;
+}
+.main{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     
+
+}
+.main-item{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 25%;
+    margin-bottom: 10%;   
+}
+
+.heading{
+    /* margin-left:90%; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* margin-bottom:5%; */
+    color: #2c815f;
+    font-weight: 700;
+    font-size: 33px;
+    margin-left: 35%;
+}
+
+.peragraph{
+    margin-left: 35%;
+    font-size: 20px;
+    margin-top: 15px;
+    width:69%;
+}
+
+.footer{
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   
+  
+}
+
+.footer{
+    display: flex;
+    margin-top:5%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 33%;
+    gap: 10%;
+}
+
+.Doctor{
+    padding: 8px 7%;
+    font-size: 20px;
+    /* border: none; */
+    border-radius: 10px;
+    cursor: pointer;
+    color: #129a64;    
+    font-weight:600;
+    border: none; /* Remove button border */
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.4); /* Add shadow */ 
+}
+
+.Doctor span{
+    color: #000000;
+    font-weight: 500;
+}
+
+.Customers{
+    padding: 12px 5%;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #129a64;
+    border: none;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.4);
+}
+
+.Customers span{
+    color: #000000;
+    font-weight: 500;
+}
+
+.students{
+    padding: 10px 5%;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #129a64;
+    border: none;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.4);
+}
+
+.students span{
+    color: #000000;
+    font-weight: 500;
+}
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    border: none;
+    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    width: 120%;
+   
+      
+}
+
+.Form{
+    text-align: center;
+    padding-left:15px;
+    font-size: 30px;
+    
+}
+
+form input[type="text"] ,from textarea{
+   height: 30px;
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 10px;
+   border-radius: 10px;
+   border: #7c7c7c;
+}
+
+form input[type="Email"]{
+    height: 30px;
+    width: 100%;
+    padding: 10px ;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: #7c7c7c;
+}
+  
+textarea{
+  height: 300%;
+  width: 100%;
+  padding: 5px 0px 50px 10px ;
+  border-radius: 10px;
+  border: #7c7c7c;
+}
+
+.submit-button button{
+   width: 100%;
+   size: 40%;
+   height: 200%;
+   font-size: 20px;
+   font-weight: 500;
+   padding: 5px ;
+   margin-top:10px;
+   border-radius: 10px;
+   border: none;
+   background-color:#129a64;
+   color: #f0f4f5;
+   cursor: pointer;
+}
+
+.submit-button button:hover{
+    background-color: #483a3a;
+    color: #ffffff;
+}
